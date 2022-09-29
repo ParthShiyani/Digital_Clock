@@ -57,29 +57,7 @@ class _HomePageState extends State<HomePage> {
                               Text("Thought: ${items![2]}"),
                             ],
                           ),
-                          // items!
-                          //     .map(
-                          //       (e) => GestureDetector(
-                          //         child: Row(
-                          //           children: [
-                          //             Text(e),
-                          //             // IconButton(
-                          //             //     onPressed: () {
-                          //             //       Navigator.of(context).pop();
-                          //             //       int i = e.indexOf(e);
-                          //             //       setState(() {
-                          //             //         allThoughts.removeAt(i);
-                          //             //       });
-                          //             //     },
-                          //             //     icon: const Icon(
-                          //             //         Icons.cancel_outlined))
-                          //           ],
-                          //         ),
-                          //       ),
-                          //     )
-                          //     .toSet()
-                          //     .toList()),
-                        ));
+                    ));
               },
               icon: const Icon(Icons.file_copy_sharp))
         ],
